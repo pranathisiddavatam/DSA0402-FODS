@@ -14,4 +14,19 @@ earliest_order_date = order_data['Order Date'].min()
 latest_order_date = order_data['Order Date'].max()
 print("Earliest Order Date:", earliest_order_date)
 print("Latest Order Date:", latest_order_date)
-
+OUTPUT:
+Total number of orders made by each customer:
+ Customer ID
+101    1
+102    1
+103    1
+104    1
+Name: count, dtype: int64
+Average order quantity for each product:
+ Product Name
+Product A    2.5
+Product B    1.0
+Product C    2.0
+Name: Order Quantity, dtype: float64
+Earliest Order Date: 2023-08-01
+Latest Order Date: 2023-08-04
