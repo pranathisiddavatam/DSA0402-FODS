@@ -11,3 +11,5 @@ houses_more_than_four_bedrooms = house_data[bedroom_condition]
 average_sale_price = np.mean(houses_more_than_four_bedrooms[:, 2])  
 
 print("Average Sale Price of Houses with More than Four Bedrooms:", average_sale_price)
+OUTPUT:
+Average Sale Price of Houses with More than Four Bedrooms: 263333.3333333333
