@@ -8,3 +8,12 @@ product_sales = sales_data.groupby('Product Name')['Quantity Sold'].sum()
 top_5_products = product_sales.sort_values(ascending=False).head(5)
 print("Top 5 products sold the most in the past month:")
 print(top_5_products)
+OUTPUT:
+Top 5 products sold the most in the past month:
+Product Name
+Product C    20
+Product A    18
+Product E    18
+Product D    15
+Product B    11
+Name: Quantity Sold, dtype: int64
