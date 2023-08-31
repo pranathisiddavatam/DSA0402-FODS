@@ -17,4 +17,5 @@ plt.ylabel('Sales')
 plt.legend() 
 plt.grid(axis='y') 
 plt.show()  
- 
+ OUTPUT:
+C:\Users\DELL\OneDrive\Documents\New folder\10i.png
