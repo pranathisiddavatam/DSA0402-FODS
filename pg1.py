@@ -11,3 +11,4 @@ subject_names = ['Math', 'Science', 'English', 'History']
 highest_average_subject = subject_names[highest_average_subject_index]
 print("Average scores for each subject:", subject_averages)
 print("Subject with the highest average score:", highest_average_subject)
+
