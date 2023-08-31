@@ -6,3 +6,6 @@ model_5_efficiency = fuel_efficiency[4]
 percentage_improvement = ((model_5_efficiency - model_2_efficiency) / model_2_efficiency) * 100
 print("Average Fuel Efficiency:", average_fuel_efficiency, "MPG")
 print("Percentage Improvement between Model 2 and Model 5:", percentage_improvement, "%")
+OUTPUT:
+Average Fuel Efficiency: 31.133333333333336 MPG
+Percentage Improvement between Model 2 and Model 5: 8.156028368794328 %
