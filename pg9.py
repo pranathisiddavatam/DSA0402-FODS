@@ -15,3 +15,16 @@ print(average_price_by_location)
 print("\nNumber of Properties with More than Four Bedrooms:", properties_with_more_than_four_bedrooms)
 print("\nProperty with the Largest Area:")
 print(property_with_largest_area)
+OUTPUT:
+Average Listing Price by Location:
+location
+City A    285000.0
+City B    300000.0
+City C    275000.0
+Name: listing_price, dtype: float64
+
+Number of Properties with More than Four Bedrooms: 2
+
+Property with the Largest Area:
+   property_id location  number_of_bedrooms  area_sqft  listing_price
+4            5   City B                   5       2200         420000
