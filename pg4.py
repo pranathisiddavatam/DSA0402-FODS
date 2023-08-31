@@ -6,3 +6,6 @@ fourth_quarter_sales = sales_data[-1]
 percentage_increase = ((fourth_quarter_sales - first_quarter_sales) / first_quarter_sales) * 100
 print("Total Sales for the Year:", total_sales)
 print("Percentage Increase from Q1 to Q4:", percentage_increase, "%")
+OUTPUT:
+Total Sales for the Year: 1200000
+Percentage Increase from Q1 to Q4: 40.0 %
