@@ -12,3 +12,9 @@ print("Discount Amount: $", discount)
 print("Total Cost After Discount: $", total_cost_after_discount)
 print("Tax Amount: $", tax_amount)
 print("Final Total Cost: $", final_total_cost)
+OUTPUT:
+Total Cost Before Discount: $ 30.5
+Discount Amount: $ 3.0500000000000003
+Total Cost After Discount: $ 27.45
+Tax Amount: $ 2.05875
+Final Total Cost: $ 29.50875
